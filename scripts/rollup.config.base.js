@@ -27,23 +27,23 @@ export default {
     //   banner,
     //   plugins: [terser()],
     // },
-    {
-      file: `dist/${pkgName}.cjs.js`,
-      format: "cjs",
-      name: pkgName,
-      banner,
-    },
+    // {
+    //   file: `dist/${pkgName}.cjs.js`,
+    //   format: "cjs",
+    //   name: pkgName,
+    //   banner,
+    // },
     {
       file: `dist/${pkgName}.esm.js`,
       format: "es",
       banner,
     },
-    {
-      file: `dist/${pkgName}.umd.js`,
-      format: "umd",
-      name: pkgName,
-      banner,
-    },
+    // {
+    //   file: `dist/${pkgName}.umd.js`,
+    //   format: "umd",
+    //   name: pkgName,
+    //   banner,
+    // },
     {
       file: `dist/${pkgName}.umd.min.js`,
       format: "umd",
